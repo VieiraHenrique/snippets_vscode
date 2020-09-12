@@ -1,0 +1,139 @@
+{
+	// Place your snippets for html here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Bootstrap Navbar": {
+		"prefix": "bs-navbar",
+		"body": [
+			"<nav class=\" navbar navbar-expand-lg navbar-dark bg-dark\">",
+			"        <a href=\"#\" class=\"navbar-brand\">Navbar</a>",
+			"        <button class=\"navbar-toggler\" data-toggle=\"collapse\" data-target=\"#myNav\">",
+			"            <span class=\"navbar-toggler-icon\"></span>",
+			"        </button>",
+			"",
+			"        <div class=\"navbar-collapse collapse\" id=\"myNav\">",
+			"            <ul class=\"navbar-nav ml-auto\">",
+			"                <li class=\"nav-item\">",
+			"                    <a href=\"#\" class=\"nav-link\">Hello</a>",
+			"                </li>",
+			"                <li class=\"nav-item\">",
+			"                    <a href=\"#\" class=\"nav-link\">Hello</a>",
+			"                </li>",
+			"                <li class=\"nav-item\">",
+			"                    <a href=\"#\" class=\"nav-link\">Hello</a>",
+			"                </li>",
+			"            </ul>",
+			"        </div>",
+			"    </nav>"
+		],
+		"description": "Bootstrap Navbar"
+	}
+
+	  "Bootstrap Search Bar": {
+		"prefix": "bs-search-bar",
+		"body": [
+			"<form action=\"#\" class=\"form-inline\">",
+			"    <div class=\"input-group\">",
+			"        <div class=\"input-group-prepend\">",
+			"            <span class=\"input-group-text\">",
+			"                <i class=\"fas fa-search\"></i>",
+			"            </span>",
+			"        </div>",
+			"        <input type=\"text\" class=\"form-control\">",
+			"        <div class=\"input-group-append\">",
+			"            <button class=\"btn btn-success\">Search</button>",
+			"        </div>",
+			"    </div>",
+			"</form>"
+		],
+		"description": "Bootstrap Search Bar"
+	}
+
+	  "Boostrap Template": {
+		"prefix": "bs-bootstrap-template",
+		"body": [
+			"<!doctype html>",
+			"<html lang=\"en\">",
+			"",
+			"<head>",
+			"    <!-- Required meta tags -->",
+			"    <meta charset=\"utf-8\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">",
+			"",
+			"    <!-- Font Awesome -->",
+			"    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css\">",
+			"    ",
+			"    <!-- Bootstrap CSS -->",
+			"    <link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css\" integrity=\"sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO\"",
+			"        crossorigin=\"anonymous\">",
+			"",
+			"    <!-- Custom styles -->",
+			"",
+			"    <link rel=\"stylesheet\" href=\"css/style.css\">",
+			"",
+			"    <title>Title</title>",
+			"</head>",
+			"",
+			"<body>",
+			"",
+			"",
+			"",
+			"    <!-- Optional JavaScript -->",
+			"    <!-- jQuery first, then Popper.js, then Bootstrap JS -->",
+			"    <script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\"",
+			"        crossorigin=\"anonymous\"></script>",
+			"    <script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\"",
+			"        crossorigin=\"anonymous\"></script>",
+			"    <script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js\" integrity=\"sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy\"",
+			"        crossorigin=\"anonymous\"></script>",
+			"</body>",
+			"",
+			"</html>"
+		],
+		"description": "Boostrap Template"
+	}
+
+	  "Bootstrap card": {
+		"prefix": "bs-card",
+		"body": [
+			"<div class=\"card shadow\">",
+			"    <img src=\"\" alt=\"\" class=\"card-image-top img-fluid rounded-top\">",
+			"    <div class=\"card-header\">Card header</div>",
+			"    <div class=\"card-body\">",
+			"        <h4>Card title</h4>",
+			"        <h6 class=\"text-muted\">Subtitle</h6>",
+			"        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quasi nemo nostrum explicabo,",
+			"            ratione quod soluta id earum?</p>",
+			"        <a href=\"#\" class=\"btn btn-success\">Know more <i class=\"fas fa-arrow-right\"></i></a>",
+			"    </div>",
+			"    <ul class=\"list-group list-group-flush\">",
+			"        <li class=\"list-group-item\">Option 1</li>",
+			"        <li class=\"list-group-item\">Option 2</li>",
+			"        <li class=\"list-group-item\">Option 3</li>",
+			"        <li class=\"list-group-item\">Option 4</li>",
+			"    </ul>",
+			"    <div class=\"card-footer\">Card footer</div>",
+			"</div>"
+		],
+		"description": "Bootstrap card"
+	}
+
+
+	  "BS - Place items to center": {
+		"prefix": "bs-center",
+		"body": [
+			"d-flex justify-content-center align-items-center"
+		],
+		"description": "BS - Place items to center"
+	}
+}
