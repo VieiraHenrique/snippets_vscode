@@ -21,5 +21,14 @@
 			"console.log(${1:example})"
 		],
 		"description": "console.log"
+	},
+	"random_integer_function": {
+		"prefix": "function_randInt",
+		"body": [
+			"function randInt(min, max) {",
+			"    return Math.floor(Math.random() * (max - min + 1) + min)",
+			"}"
+		],
+		"description": "random_integer_function"
 	}
 }
