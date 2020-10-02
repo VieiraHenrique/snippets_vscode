@@ -20,9 +20,10 @@
 		"description": "console.log"
 	},
 	"random_integer_function": {
-		"prefix": "function_randInt",
+		"prefix": "random-function",
 		"body": [
 			"function randInt(min, max) {",
+			"    // max included",
 			"    return Math.floor(Math.random() * (max - min + 1) + min)",
 			"}"
 		],
