@@ -28,5 +28,14 @@
 			"align-items: center;"
 		],
 		"description": "CSS - Flex center"
-	}
+	},
+	"Media Query": {
+		"prefix": "@res",
+		"body": [
+		  "@media screen and (min-width: 768px){",
+		  "",
+		  "};"
+		],
+		"description": "Media Query"
+	  }
 }
