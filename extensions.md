@@ -1,0 +1,10 @@
+- Auto Rename Tag
+- Auto-Open Markdown Preview
+- Bracket Pair Colorizer 2
+- Indent-Rainbow
+- Live Sass Compiler
+- Live Server
+- Material Theme Icons
+- One Dark Pro
+- Prettier - Code formatter
+- Wakatime
