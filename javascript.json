@@ -1,52 +1,78 @@
 {
-    // Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
-    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-    // same ids are connected.
-    // Example:
-    // "Print to console": {
-    // 	"prefix": "log",
-    // 	"body": [
-    // 		"console.log('$1');",
-    // 		"$2"
-    // 	],
-    // 	"description": "Log output to console"
-    // }
-    "console.log": {
-        "prefix": "cl",
-        "body": ["console.log(${1:example})"],
-        "description": "console.log"
-    },
-    "random_integer_function": {
-        "prefix": "hv-random-function",
-        "body": [
-            "function randInt(min, max) {",
-            "    // max included",
-            "    return Math.floor(Math.random() * (max - min + 1) + min)",
-            "}"
-        ],
-        "description": "random_integer_function"
-    },
-    "Fetch get": {
-        "prefix": "hv-fetch get",
-        "body": [
-            "fetch(${1:url})",
-            "    .then((response)=>{",
-            "        return response.json();",
-            "    })",
-            "    .then ((data)=>{",
-            "        ",
-            "    })"
-        ],
-        "description": "Fetch get"
-    },
+	// Place your snippets for javascript here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"console.log": {
+		"prefix": "cl",
+		"body": ["console.log(${1:example})"],
+		"description": "console.log"
+	},
+	"random_integer_function": {
+		"prefix": "hv-random-function",
+		"body": [
+			"function randInt(min, max) {",
+			"    // max included",
+			"    return Math.floor(Math.random() * (max - min + 1) + min)",
+			"}"
+		],
+		"description": "random_integer_function"
+	},
+	"Fetch get": {
+		"prefix": "hv-fetch get",
+		"body": [
+			"fetch(${1:url})",
+			"    .then((response)=>{",
+			"        return response.json();",
+			"    })",
+			"    .then ((data)=>{",
+			"        ",
+			"    })"
+		],
+		"description": "Fetch get"
+	},
 
-    "Express set views": {
-        "prefix": "exp set views",
-        "body": [
-            "app.set(\"view engine\", \"ejs\");",
-            "app.set(\"views\", path.join(__dirname, \"/views\"));"
-        ],
-        "description": "Express set views"
-    }
+	"Express set views": {
+		"prefix": "exp set views",
+		"body": [
+			"app.set(\"view engine\", \"ejs\");",
+			"app.set(\"views\", path.join(__dirname, \"/views\"));"
+		],
+		"description": "Express set views"
+	},
+
+	"Vuex Nuxt": {
+		"prefix": "vuex-nuxt",
+		"body": [
+			"// STATE",
+			"export const state = () => ({",
+			"  // like data",
+			"})",
+			"",
+			"// GETTERS",
+			"export const getters = {",
+			"  // Functions used to return values from the store. Use these when comput­ations need to be performed on the state value before they are passed to the caller. (You can also access the state directly.) arguments : (state, getters)",
+			"}",
+			"",
+			"// MUTATIONS",
+			"export const mutations = {",
+			"  // Functions that commit changes to the state, and can process the values being passed before saving them. arguments : (state, payload), to call : this.$store.commit('nameOfMutation', payload)",
+			"}",
+			"",
+			"// ACTIONS",
+			"export const actions = {",
+			"  // Similar to mutations, except they commit data typically using during asynch­ronous tasks. They're optional, but you should get into the habit of using these whenever mutations are present. We can call a specific mutation after having performed async code. arguments : (context, payload), to call : this.$store.dispatch('nameOfAction') ",
+			"}"
+		],
+		"description": "Vuex Nuxt"
+	}
 }
